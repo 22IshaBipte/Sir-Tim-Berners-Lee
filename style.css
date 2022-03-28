@@ -69,28 +69,35 @@ p{
     font-family: 'Dancing Script', cursive;
 }
 .menu{
-    position: fixed;
-    top:20px;
-    right:20px;
+    position:fixed;
+    top:0px;
     z-index: 999;
     cursor:pointer;
+    width:100%;
+    background-color:white;
+    left:0;
+    margin-top:0px;
+    height:30px;
     
 }
 .links{
     list-style:none;
-    float:left;
-    padding: 5px 10px;
+    display: inline;
+    padding: 5px 25px;
     font-size: 20px;
     
 }
+
 a{
    text-decoration: none;
     color: maroon;
     font-family: 'Charm', cursive;
+    text-shadow: 1px 1px gray;
 }
 
 .links:hover{
-    background-color: rebeccapurple;
+    font-size:25px;
+    text-decoration: underline;
 }
 
 .article:hover{
@@ -100,4 +107,23 @@ a{
 
 html{
     scroll-behavior: smooth;
+}
+
+#contact{
+    background-color: firebrick;
+    
+}
+
+#contact iframe{
+    width:100%;
+    
+}
+
+.contact_1 h3 {
+    display:inline;
+}
+
+.contact_1 a{
+    color:white;
+    text-decoration:none;
 }
